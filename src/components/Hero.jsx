@@ -3,12 +3,11 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 import { motion } from "framer-motion"
 import Image from 'next/image';
+import Link from 'next/link';
 const Hero = () => {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-background to-muted/20">
-        {/* Background grid */}
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.05)_1px,_transparent_1px)] bg-[size:30px_30px]" />
-
+      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative">
+      
         {/* Motion Container */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -32,19 +31,19 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-foreground mb-8 leading-relaxed text-2xl w-full lg:w-4/5">
-              I’m a Frontend Developer passionate about crafting modern,
+              I’m a Mern Stack Developer passionate about crafting modern,
               performant, and visually appealing web applications using React,
               Next.js, and Tailwind CSS.
             </p>
 
             {/* Buttons */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-              <Button size="lg" asChild>
-                <a href="#projects" className="flex items-center gap-2">
-                  View My Work <ArrowRight size={18} />
-                </a>
+              <Button size="lg" variant={"outline"} asChild>
+                <Link href="#projects" className="flex items-center gap-2">
+                  View My Resume <ArrowRight size={18} />
+                </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild>
+              <Button size="lg" asChild>
                 <a href="#contact">Contact Me</a>
               </Button>
             </div>
