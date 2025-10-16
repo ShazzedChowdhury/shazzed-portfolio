@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Figma",
+    "imageUrl": "https://i.ibb.co/NnQvQbGG/figma.png"
+  },
+  {
+    "id": 2,
+    "name": "Node.js",
+    "imageUrl": "https://i.ibb.co/L3nQwgL/nodeJs.png"
+  },
+  {
+    "id": 3,
+    "name": "Express.js",
+    "imageUrl": "https://i.ibb.co/HD4G75g1/express-Js.png"
+  },
+  {
+    "id": 4,
+    "name": "MongoDB",
+    "imageUrl": "https://i.ibb.co/pv5KHR6S/mongodb.png"
+  },
+  {
+    "id": 5,
+    "name": "Next.js",
+    "imageUrl": "https://i.ibb.co/DfwxXmVX/nextjs.png"
+  },
+  {
+    "id": 6,
+    "name": "Firebase",
+    "imageUrl": "https://i.ibb.co/V0fnT4Sz/firebase.png"
+  },
+  {
+    "id": 7,
+    "name": "Vite",
+    "imageUrl": "https://i.ibb.co/7tyzXHMY/Vite.png"
+  },
+  {
+    "id": 8,
+    "name": "React",
+    "imageUrl": "https://i.ibb.co/qYrY3rsc/react.png"
+  }
+]
