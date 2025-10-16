@@ -26,20 +26,8 @@ const SkillsSection = () => {
 
         {/* Right side: Skills list */}
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-          {skills.map((skill, index) => (
-            //   <div
-            //     key={index}
-            //     className="relative p-1 rounded-lg overflow-hidden"
-            //   >
-            //     {/* Gradient border */}
-            //     <div className="absolute inset-0 bg-gradient-to-br from-gray-400 via-gray-500 to-gray-600 rounded-lg blur-sm"></div>
-
-            //     {/* Inner content */}
-            //     <div className="relative bg-gray-50 dark:bg-gray-800 rounded-lg p-4 flex justify-center items-center text-gray-800 dark:text-white font-semibold">
-            //       {skill}
-            //     </div>
-            //   </div>
-            <div className="bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950 flex items-center justify-center w-fit rounded-3xl">
+          {skills.map((skill) => (
+            <div key={skill?.id} className="bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950 flex items-center justify-center w-fit rounded-3xl">
               <div className="relative group">
                 {/* Glass card */}
                 <div className="backdrop-blur-xl bg-gradient-to-br from-white/10 to-white/5 rounded-3xl border border-white/20 shadow-[0_8px_32px_0_rgba(255,255,255,0.1)] hover:shadow-[0_8px_48px_0_rgba(255,255,255,0.15)] transition-all duration-500 hover:scale-105">

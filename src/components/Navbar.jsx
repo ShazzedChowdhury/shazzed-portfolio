@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   const links = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "#hero" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-colors duration-500 ${
-        scrolled ? "bg-white/90 shadow-lg backdrop-blur-md" : "bg-transparent"
+        scrolled ? "bg-white/10 shadow-lg backdrop-blur-md" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">

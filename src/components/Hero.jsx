@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Hero = () => {
     return (
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative">
+      <section id='hero' className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative">
       
         {/* Motion Container */}
         <motion.div
