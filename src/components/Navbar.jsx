@@ -30,17 +30,14 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold cursor-pointer">MyPortfolio</div>
+        <div className="text-2xl font-bold bg-gradient-to-t from-slate-600 to-[#8667b9] text-transparent bg-clip-text">
+          Shazzed.Dev
+        </div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-4">
           {links.map((link) => (
-            <Button
-              key={link.name}
-              variant="ghost"
-              size="sm"
-              asChild={true}
-            >
+            <Button key={link.name} variant="ghost" size="sm" asChild={true}>
               <Link href={link?.href}>{link.name}</Link>
             </Button>
           ))}
