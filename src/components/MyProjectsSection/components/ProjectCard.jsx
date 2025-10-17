@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const ProjectCard = ({ project }) => {
   const { projectTitle, projectImg, githubLink, liveLink, technologies } =
     project;
-  const id = 1;
+  
   return (
     <div className=" rounded-xl overflow-hidden border border-[#2b2e3e] shadow-lg hover:shadow-[#2b2e3e]/50 transition-all duration-300 p-[2px]">
       <div className="shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col justify-between overflow-hidden w-full h-full rounded-lg  p-2 text-white">
@@ -41,7 +41,7 @@ const ProjectCard = ({ project }) => {
         </div>
 
         <Button variant={"link"} className="my-2" asChild={true}>
-          <Link href={`/projects/${id}`}>View More Details </Link>
+          <Link href={`/projects/${project?.id}`}>View More Details </Link>
         </Button>
       </div>
     </div>

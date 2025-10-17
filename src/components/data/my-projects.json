@@ -27,7 +27,7 @@
   },
   {
     "id": "02",
-    "projectImg": "https://i.ibb.co/VYKSG2kg/Screenshot-2025-10-17-030505.png",
+    "projectImg":"https://i.ibb.co/mrzmCQWr/Screenshot-2025-10-17-030331.png",
     "projectTitle": "plantCare - A Plant Care Tracker",
     "description": "This project, PlantCare, is a full-stack, mobile-responsive web application designed to help users efficiently manage and monitor the care of their indoor and outdoor plants. Serving as a digital assistant for plant enthusiasts, it allows users to track daily plant care tasks such as watering, fertilizing, monitoring health status, and more, ensuring their plants stay healthy and thriving.\n\nThe application is built using React for the frontend and Firebase for authentication, real-time data storage, and backend functionality. Tailwind CSS and DaisyUI provide a clean, responsive, and visually appealing interface.\n\nOverall, PlantCare delivers a user-friendly, interactive, and organized platform for plant lovers to keep track of all their plant care activities in one place, making plant management simple and enjoyable.",
     "liveUrl": "https://b11-a10-mango-plantcare-client.web.app/",
@@ -56,7 +56,7 @@
   },
   {
     "id": "03",
-    "projectImg": "https://i.ibb.co/mrzmCQWr/Screenshot-2025-10-17-030331.png",
+    "projectImg": "https://i.ibb.co/VYKSG2kg/Screenshot-2025-10-17-030505.png",
     "projectTitle": "studyStack - a web application for online group study",
     "description": "This web application is a collaborative online group study platform where every registered user is automatically connected as a friend, creating a shared learning environment. Users can create assignments, complete them, and grade their friends’ submissions, promoting teamwork and peer-based learning.\n\nThe platform is built using React for the frontend and Firebase for authentication, data storage, and real-time functionality. Tailwind CSS and DaisyUI are used to design a clean, responsive, and modern user interface.\n\nOverall, this project delivers an engaging, real-time, and visually appealing platform that encourages students to learn, collaborate, and evaluate each other’s work in a friendly and interactive way.",
     "liveUrl": "https://b11-a11-c01-client-side.web.app/",

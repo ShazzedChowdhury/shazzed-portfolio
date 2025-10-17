@@ -2,7 +2,7 @@ import myProjects from "@/components/data/my-projects.json"
 import ProjectCard from "./components/ProjectCard";
 
 const MyProjectsSection = () => {  
-    console.log(myProjects);  
+  
     return (
       <section id="projects" className="max-w-7xl mx-auto p-5 min-h-screen flex flex-col justify-center py-16">
         <h2 className="text-4xl md:text-6xl font-bold mb-5 text-center">
