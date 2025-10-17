@@ -6,8 +6,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Hero = () => {
     return (
-      <section id='hero' className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative">
-      
+      <section
+        id="home"
+        className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative"
+      >
         {/* Motion Container */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -19,7 +21,7 @@ const Hero = () => {
             {/* Subtitle */}
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Hey, I'm{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-violet-500 to-blue-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
                 Shazzed ✨ <br />A Mern Stack Developer{" "}
               </span>
             </h1>

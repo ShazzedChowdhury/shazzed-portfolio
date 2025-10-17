@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 import { Menu } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -14,17 +15,14 @@ const Navbar = () => {
   }, []);
 
   const links = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/#home" },
+    { name: "About", href: "/#about" },
+    { name: "Skills", href: "/#skills" },
+    { name: "Projects", href: "/#projects" },
+    { name: "Contact", href: "/#contact" },
   ];
 
-  const scrollToSection = (href) => {
-    const section = document.querySelector(href);
-    section?.scrollIntoView({ behavior: "smooth" });
-  };
+  
   return (
     <nav
       className={`fixed w-full z-50 transition-colors duration-500 ${
@@ -41,9 +39,9 @@ const Navbar = () => {
               key={link.name}
               variant="ghost"
               size="sm"
-              onClick={() => scrollToSection(link.href)}
+              asChild={true}
             >
-              {link.name}
+              <Link href={link?.href}>{link.name}</Link>
             </Button>
           ))}
         </div>

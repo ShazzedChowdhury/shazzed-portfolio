@@ -5,7 +5,7 @@ import Link from 'next/link';
 const projectDetailsPage = async({ params }) => {
     const {id} = await params;
     const selectedProject = projects.find(project => project.id === id);
-    console.log(selectedProject)
+
       if (!selectedProject) {
         return (
           <main className="pt-[80px] min-h-screen flex items-center justify-center text-gray-400">
