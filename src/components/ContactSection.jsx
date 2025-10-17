@@ -1,6 +1,7 @@
 "use client";
-
 import { useState } from "react";
+import { CgMail } from "react-icons/cg";
+import ContactInfo from "./ContactInfo";
 
 
 const ContactSection = () => {
@@ -57,6 +58,7 @@ const ContactSection = () => {
           <p className="text-gray-400 text-lg">
             Have a project in mind or just want to chat? Let’s connect!
           </p>
+         <ContactInfo />
         </div>
 
         {/* Right Form Section */}
