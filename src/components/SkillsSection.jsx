@@ -1,4 +1,6 @@
+"use client"
 import skills from "@/components/data/skills.json"
+import { motion } from "framer-motion";
 
 const SkillsSection = () => {
     
@@ -10,8 +12,7 @@ const SkillsSection = () => {
         {/* Left side: Title and subtitle */}
         <div className="lg:w-1/2 p-5 text-center lg:text-left">
           <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            My Skills &{" "}
-            <br />
+            My Skills & <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-violet-500 to-blue-400">
               Expertise
             </span>
@@ -27,7 +28,12 @@ const SkillsSection = () => {
         {/* Right side: Skills list */}
         <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
           {skills.map((skill) => (
-            <div key={skill?.id} className="bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950 flex items-center justify-center w-fit rounded-3xl">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              key={skill?.id}
+              className="bg-gradient-to-br from-slate-950 via-gray-900 to-slate-950 flex items-center justify-center w-fit rounded-3xl"
+            >
               <div className="relative group">
                 {/* Glass card */}
                 <div className="backdrop-blur-xl bg-gradient-to-br from-white/10 to-white/5 rounded-3xl border border-white/20 shadow-[0_8px_32px_0_rgba(255,255,255,0.1)] hover:shadow-[0_8px_48px_0_rgba(255,255,255,0.15)] transition-all duration-500 hover:scale-105">
@@ -46,7 +52,7 @@ const SkillsSection = () => {
                 {/* Glow effect behind card */}
                 <div className="absolute inset-0 bg-blue-500/20 blur-3xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </section>

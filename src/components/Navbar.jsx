@@ -25,11 +25,13 @@ const Navbar = () => {
   
   return (
     <nav
-      className={`fixed w-full z-50 transition-colors duration-500 ${
-        scrolled ? "bg-white/10 shadow-lg backdrop-blur-md" : "bg-transparent"
+      className={`${
+        scrolled
+          ? "fixed w-full z-50 transition-colors duration-500 bg-white/10 shadow-lg backdrop-blur-md"
+          : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-3 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold bg-gradient-to-t from-slate-600 to-[#8667b9] text-transparent bg-clip-text">
           Shazzed.Dev
         </div>

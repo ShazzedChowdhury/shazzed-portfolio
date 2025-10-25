@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative"
+      className="min-h-[calc(100vh-68px)] flex flex-col justify-center items-center text-center p-6 relative"
     >
       {/* Motion Container */}
       <motion.div
@@ -51,7 +51,7 @@ const Hero = () => {
                 <a href="#contact">Contact Me</a>
               </Button>
             </div>
-            <SocialLink isShowBorder={true}/>
+            <SocialLink isShowBorder={true} />
           </div>
         </div>
 

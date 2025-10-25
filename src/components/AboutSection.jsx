@@ -7,10 +7,10 @@ const AboutSection = () => {
       id="about"
       className="py-16 px-6 lg:px-20 bg-base-100 min-h-screen"
     >
-      <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left side - Profile Image */}
         <div className="flex-1 flex justify-center">
-          <div className="relative w-full h-full rounded-sm overflow-hidden">
+          <div className="relative max-w-[400px] max-h-[400px] w-full h-full rounded-sm overflow-hidden">
             <Image
               src="https://i.ibb.co/B2PnMv49/profile.png"
               alt="Shazzed"
