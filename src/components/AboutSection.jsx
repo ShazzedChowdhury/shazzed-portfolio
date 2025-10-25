@@ -12,7 +12,7 @@ const AboutSection = () => {
         <div className="flex-1 flex justify-center">
           <div className="relative max-w-[400px] max-h-[400px] w-full h-full rounded-sm overflow-hidden">
             <Image
-              src="https://i.ibb.co/B2PnMv49/profile.png"
+              src="/profile.jpg"
               alt="Shazzed"
               width={300}
               height={300}

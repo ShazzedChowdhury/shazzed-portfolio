@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="relative max-w-80 w-full max-h-80 h-full rounded-full p-[4px] bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-400 mx-auto">
           <div className="w-full h-full rounded-full overflow-hidden bg-background">
             <Image
-              src="https://i.ibb.co/B2PnMv49/profile.png"
+              src="/profile.jpg"
               width={400}
               height={400}
               alt="Profile image"
