@@ -28,14 +28,10 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold mb-2 ">Introduction</h3>
             <p className="text-base-content/80">
               Hi, I’m <span className="font-semibold">Shazzed</span>, a
-              passionate{" "}
-              <span className="font-semibold">MERN Stack Developer</span> from{" "}
-              <span className="font-semibold">Chittagong, Bangladesh</span>. I’m
-              currently pursuing my{" "}
-              <span className="font-semibold">
-                Bachelor’s degree (Hon’s level)
-              </span>{" "}
-              and love turning ideas into full-stack web applications.
+              <span className="font-semibold"> MERN Stack Developer</span> from
+              <span className="font-semibold"> Chittagong, Bangladesh</span>. I
+              specialize in building efficient, scalable, and user-friendly
+              full-stack web applications.
             </p>
           </div>
 
